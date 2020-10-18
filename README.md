@@ -41,3 +41,10 @@ Task 6:
 -realization of a single-page application
 
 Task 7:
+-Realization of a single-page application using JavaScript
+-Ajax
+-drop down menu
+
+Task8:
+-is an advanced task like 7
+-the detailed explanation is added as a pdf under "WebtechTasks/htdocs/Gruppe01Uebung8/WT-K2.pdf"
