@@ -1,0 +1,139 @@
+body{
+    overflow-x: hidden;
+}
+
+#form-container{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 5em;
+}
+
+#name-container{
+    margin: auto;
+    width: 30%;
+}
+
+#name-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#name-container input{
+    margin: auto;
+    width: 70%;
+}
+
+#plz-container{
+    margin: auto;
+    width: 30%;
+}
+
+#plz-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#plz-container input{
+    margin: auto;
+    width: 30%;
+}
+
+#stadt-container{
+    margin: auto;
+    width: 30%;
+}
+
+#stadt-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#stadt-container input{
+    margin: auto;
+    width: 70%;
+}
+
+#strasse-container{
+    margin: auto;
+    width: 30%;
+}
+
+#strasse-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#strasse-container input{
+    margin: auto;
+    width: 70%;
+}
+
+#hausnummer-container{
+    margin: auto;
+    width: 30%;
+}
+
+#hausnummer-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#hausnummer-container input{
+    margin: auto;
+    width: 30%;
+}
+
+#iban-container{
+    margin: auto;
+    width: 30%;
+}
+
+#iban-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#iban-container input{
+    margin: auto;
+    width: 70%;
+}
+
+#geldbetrag-container{
+    margin: auto;
+    width: 30%;
+}
+
+#geldbetrag-container label{
+    display: block;
+    margin: auto;
+    width: 50%;
+
+}
+
+#geldbetrag-container input{
+    margin: auto;
+    width: 40%;
+}
+
+#btn-senden{
+    width: 22%;
+    margin-top: 0.5em;
+}
+
+input{
+    margin-bottom: 0.5em !important;
+}

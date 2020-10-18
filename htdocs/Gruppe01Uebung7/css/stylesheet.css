@@ -1,0 +1,98 @@
+#main-container{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 10em;
+    font-size: 1.3em;
+}
+
+#chat-container{
+    width: 100%;
+}
+
+#person1{
+    display: inline-block;
+    width: 33.1%;
+}
+
+#person2{
+    display: inline-block;
+    width: 33.1%;
+}
+
+#person3{
+    display: inline-block;
+    width: 33.1%;
+}
+
+#ueberschrift{
+    font-size: 2.3em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#button-container{
+    display: block;
+}
+
+#ich{
+    font-style: italic;
+}
+
+input[id='login']{
+    margin-top: 1em;
+}
+
+#receiver0{
+    border-style: solid;
+    border-color: black;
+    height: 20em;
+    overflow-y: scroll;
+}
+
+#receiver1{
+    border-style: solid;
+    border-color: black;
+    height: 20em;
+    overflow-y: scroll;
+}
+
+#receiver2{
+    border-style: solid;
+    border-color: black;
+    height: 20em;
+    overflow-y: scroll;
+}
+
+#person-hervorheben{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#logout{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#abwesend{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+textarea{
+    position: relative;
+    top: 100px;
+    height: 8em;
+    width: 95%;
+    margin-top: -3em;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin-bottom: -0.8em;
+}

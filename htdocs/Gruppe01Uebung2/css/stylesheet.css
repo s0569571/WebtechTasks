@@ -1,0 +1,289 @@
+
+body{
+    font-size: 1.1em;
+    background-color: coral;
+}
+
+#gedicht-ueberschrift{
+    font-size: 3.2em;
+    color: greenyellow;
+    margin-bottom: 0.3em;
+    margin-top: 0.2em;
+}
+
+#dichter{
+    font-size: 1em;
+    font-style: italic;
+}
+
+#menue-ul{
+    list-style-type: none;
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.menue-li{
+    float: left;
+}
+
+.menue-li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    display: block;
+}
+
+.menue-li a:hover{
+    background-color: #111111;
+}
+
+.menu-link{
+    color: white;
+}
+
+#menue-pic{
+    padding: .2em;
+}
+
+#menue-pic-left{
+    text-align: left;
+}
+
+#menue-pic-left img{
+    padding: 0em;
+    border-width: .3em;
+    border-color: black;
+    border-style: solid;
+}
+
+#menue-pic-right{
+    text-align: right;
+    float: right;
+}
+
+#menue-pic-right img{
+    padding: 0em;
+    border-width: .3em;
+    border-color: black;
+    border-style: solid;
+}
+
+#main-picture{
+    display: block;
+    height: 230px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border-style: dashed;
+    border-width: 4px;
+    border-top-style: none;
+}
+
+.gedicht-bereich{
+    padding-left: 8.4em;
+    padding-right: 8.4em;
+    padding-bottom: 1.4em;
+    padding-top: 0.6em;
+}
+
+#linker-absatz{
+    text-align: left;
+}
+
+#rechter-absatz{
+    text-align: right;
+}
+
+#zentraler-absatz{
+    text-align: center;
+}
+
+#blocksatz-absatz{
+    text-align: justify;
+}
+
+#listen-ueberschrift{
+    color: yellow;
+    font-style: italic;
+    text-align: center;
+}
+
+#warnung{
+    color: red;
+    font-style: italic;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.fantasy-font{
+    font-family: fantasy, times, sans-serif;
+}
+
+.red-arial{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blue-fantasy{
+    font: 1.2em fantasy, times, sans-serif;
+    color: blue;
+}
+
+.rgb-georgia{
+    font: italic 1.4em Georgia, serif;
+    color: rgb(240, 32, 98);
+}
+
+.green-courier{
+    font-family: courier new, serif;
+    color: green;
+    font-size: small;
+}
+
+.besondere-Worte{
+    font-family: Lucida Console;
+    text-decoration: underline;
+}
+
+.ganz-besondere-worte{
+    font-size: 2em;
+    color: grey;
+}
+
+.besondersten-worte{
+    color: rgb(12,12,122);
+}
+
+.style-wechsel{
+    font-family: "Times New Roman", serif;
+    font-size: 1em;
+    color: chartreuse;
+}
+
+.listen-bereich{
+    text-align: center;
+}
+
+ul, ol{
+    display: inline-block;
+}
+
+.list-circle{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.list-lower-alpha{
+    list-style-type: lower-alpha;
+}
+
+.list-upper-alpha{
+    list-style-type: upper-alpha;
+}
+
+ul.list-none{
+    list-style: none;
+    font-style: italic;
+}
+
+.list-upper-roman{
+    list-style: upper-roman;
+}
+
+.list-lower-roman{
+    list-style: lower-roman;
+}
+
+.list-square{
+    list-style: square;
+}
+
+.list-check{
+    list-style-image: url(../images/check.png);
+}
+
+big{
+    font-weight: bold;
+}
+
+small{
+    font-variant: small-caps;
+    margin: 20px;
+}
+
+small.very-small{
+    font-size: xx-small;
+    margin-right: -0.2em;
+    margin-left: -0.2px;
+}
+
+sub{
+    vertical-align: baseline;
+    position: relative;
+    top: 4.2em;
+}
+
+sup{
+    vertical-align: baseline;
+    position: relative;
+    top: -4.2em;
+}
+
+em{
+    font-variant: small-caps;
+}
+
+kbd{
+    font-style: oblique;
+}
+
+strike{
+    color: red;
+}
+
+li{
+    color: black;
+}
+
+cite{
+    font-style: oblique;
+    display: block;
+}
+
+cite:before{
+    color: black;
+    text-decoration: underline;
+    content: "Es folgt ein Zitat: ";
+    display: block;
+}
+
+cite:after{
+    content: "Zitat Ende";
+    text-decoration: underline;
+    color: black;
+    display: block;
+}
+
+strong{
+    font-size: 3em;
+    text-decoration: underline dotted;
+}
+
+del{
+    text-decoration: line-through dashed;
+}
+
+h1 + p > del{
+    text-decoration: overline;
+}

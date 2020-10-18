@@ -1,0 +1,82 @@
+#ueberschrift{
+    text-align: center;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+#tuer-container{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+#tuer-container img{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#btn-container{
+    width: 100%;
+}
+
+#btn-neues-spiel{
+    position: relative;
+    left:20px;
+    font-size: 1em;
+}
+
+#btn-beenden{
+    position: absolute;
+    right: 20px;
+    font-size: 1em;
+}
+
+#statistik{
+    position: fixed;
+    right:20px;
+    top:200px;
+    border-style: dotted;
+    font-size: 1.4em;
+    padding: 5px;
+}
+
+#messages{
+    position: fixed;
+    left: 20px;
+    top:200px;
+    font-size: 1.5em;
+    font-style: italic;
+    border-style: dotted;
+    padding: 5px;
+}
+
+.statistik-header{
+    margin-top: 0.2em;
+    text-align: center;
+}
+
+.win-msg{
+    color: green;
+}
+
+.lose-msg{
+    color: orange;
+}
+
+#result-header{
+    text-align: center;
+    font-family: monospace;
+    font-size: 5em;
+}
+
+#result-container{
+    text-align: center;
+    margin-top: 4em;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#result-container span{
+    font-style: italic;
+}
