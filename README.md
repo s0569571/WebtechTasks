@@ -47,4 +47,4 @@ Task 7:
 
 Task8:
 -is an advanced task like 7
--the detailed explanation is added as a pdf under "WebtechTasks/htdocs/Gruppe01Uebung8/WT-K2.pdf"
+-the detailed explanation is added as a pdf under "WebtechTasks/Aufgabenstellungen/WT-K2.pdf"
